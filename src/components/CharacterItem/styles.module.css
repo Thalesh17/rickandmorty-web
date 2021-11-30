@@ -1,0 +1,67 @@
+.content {
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    height: 220px;
+    overflow: hidden;
+    background: rgb(60, 62, 68);
+    border-radius: 0.5rem;
+    margin: 0.75rem;
+    padding: 0px 0px 0px 18px;
+    -webkit-box-shadow: rgb(0 0 0 / 10%) 0px 4px 6px -1px, rgb(0 0 0 / 6%) 0px 2px 4px -1px;
+    box-shadow: rgb(0 0 0 / 10%) 0px 4px 6px -1px, rgb(0 0 0 / 6%) 0px 2px 4px -1px;
+    color: #fff;
+}
+.character-descriptions {
+    flex: 1 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 0.55rem;
+}
+.content-image {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.content-image:hover {
+    transform: scale(1);
+}
+.character-image {
+    width: 220px;
+}
+.section-character {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1rem;
+}
+.section-character a {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.section-label {
+    color: #c9c9c9;
+}
+.section-status {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.icon-alive, .icon-dead {
+    background-color: #fbfbfb;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+}
+.icon-dead {
+    background-color: #ff0000;
+}
+.icon-alive {
+    background-color: #00ef00;
+}
+.alive-hover:hover {
+    color: #00ef00;
+}
+.dead-hover:hover {
+    color: #ff0000;
+}

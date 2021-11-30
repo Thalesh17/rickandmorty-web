@@ -1,0 +1,22 @@
+.content {
+    display: flex;
+    flex-direction: column;
+}
+.logo-image, .logo-name {
+    position: absolute;
+}
+
+.logo-image {
+    width: 200px!important;
+}
+.wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 4rem 0px;
+    align-items: center;
+}
+.characteres {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
